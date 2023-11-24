@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Dosis',sans-serif;
+}
+.about{
+    /* height: 150vh; */
+width: 100%;
+background-image: url(cookingbg.png);
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.about .main video{
+width: 800px;
+/* max-width: 100%; */
+height: 100vh;
+padding: 15px;
+margin-top: 10px;
+margin-bottom: 50px;
+/* opacity:0.7; */
+margin-right: -100px;
+
+}
+.all-text{
+    width: 400px;
+    max-width: 100%;
+    padding:10px;
+    margin-bottom: 100px;
+}
+.main{
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all-text h1{
+        font-size: 65px;
+        color: #111111;
+        font-weight: 700px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+
+ }
+ .all-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #777777;
+    Line-height: 30px;
+    margin-bottom: 35px;
+    padding-left: 30px;
+}
+button{
+    margin-top: 20px;
+      color: black;
+      background-color: pink;
+      border: none;
+      border-radius: 5px;
+      padding: 8px;
+      /* margin-top:30px; */
+      cursor:pointer;
+      font-size: 20px;
+      /* margin-bottom: 70px; */
+      /* margin-right: 100px; */
+    
+  }
+@media screen and (max-width: 1250px){
+    .about{
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+}
+    .all-text{
+    text-align: center;
+    margin-top: 40px;
+}
+}
+@media screen and (max-width: 650px) {
+    .about .main img{
+    margin-bottom: 35px;
+    }
+    .all-text h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    }
+    }
